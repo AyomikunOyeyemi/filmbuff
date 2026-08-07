@@ -70,7 +70,7 @@ function App() {
 
   return (
     <div style={{ padding: '20px', fontFamily: 'sans-serif', maxWidth: '500px', margin: '0 auto' }}>
-      <h1>My Movie Watchlist</h1>
+      <h1>FilmBuff</h1>
       <form onSubmit={addMovie} style={{ display: 'flex', gap: '10px', marginBottom: '20px' }}>
         <input
           type="text"
